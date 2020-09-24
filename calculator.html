@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title> Calculator.com </title>
+        <script src = "calc.js"></script>
+        <link rel="stylesheet" href="calstyle.css">
+    </head>
+    <body>
+        <div class="heading"> 
+            <h1>Start Calculating !!</h1>
+        </div>
+        <div class = "calculator">
+            <table class = "caltable">
+                <th class="tabhead"><input id="userInp" class = "userInput" type = "text"></th>
+                <br>
+                <tr class = "row">
+                    <td>
+                        <button value = "7" class ="button" onclick="number(7)">7</button>
+                        <button value = "8" class ="button" onclick="number(8)">8</button>
+                        <button value = "9" class ="button" onclick="number(9)">9</button>
+                        <button value = "plus" class ="button" onclick="action(1)">+</button>
+                    </td>
+                </tr>
+                <tr class = "row">
+                    <td>
+                        <button value = "4" class ="button" onclick="number(4)">4</button>
+                        <button value = "5" class ="button" onclick="number(5)">5</button>
+                        <button value = "6" class ="button" onclick="number(6)">6</button>
+                        <button value = "minus" class ="button" onclick="action(2)">-</button>
+                    </td>
+                </tr>
+                <tr class = "row">
+                    <td>
+                        <button value = "1" class ="button" onclick="number(1)">1</button>
+                        <button value = "2" class ="button" onclick="number(2)">2</button>
+                        <button value = "3" class ="button" onclick="number(3)">3</button>
+                        <button value = "multi" class ="button" onclick="action(3)">*</button>
+                    </td>
+                </tr>
+                <tr class = "row">
+                    <td>
+                        <button value = "dot" class ="button" onclick="number(10)">.</button>
+                        <button value = "0" class ="button" onclick="number(0)">0</button>
+                        <button value = "equal" class ="button" onclick="equal(flag)">=</button>
+                        <button value = "divide" class ="button" onclick="action(4)">/</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

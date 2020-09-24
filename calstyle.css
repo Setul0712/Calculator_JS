@@ -1,0 +1,55 @@
+body{
+    background-color: azure;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.caltable{
+    margin: auto;
+    width: 40%;
+    border: 3px solid #73AD21;
+    border-style: ridge;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tabhead{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.userInput{
+    width : 65%;
+    font-size : 24px;
+    background-color: floralwhite;
+    padding : 20px;
+    text-align: end;
+    display : inline-flexbox;
+}
+
+.row{
+    width :100%;
+    text-align: center;
+    margin-left: none;
+    margin-right: none;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
